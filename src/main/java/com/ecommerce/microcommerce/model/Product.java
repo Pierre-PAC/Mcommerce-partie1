@@ -9,27 +9,27 @@ import javax.persistence.Id;
 import javax.validation.constraints.Min;
 
 @Entity
-//@JsonFilter("monFiltreDynamique")
+// @JsonFilter("monFiltreDynamique")
 public class Product {
 
     @Id
     @GeneratedValue
     private int id;
 
-    @Length(min=3, max=20, message = "Nom trop long ou trop court. Et oui messages sont plus stylés que ceux de Spring")
+    @Length(min = 3, max = 30, message = "Nom trop long ou trop court. Et oui messages sont plus stylés que ceux de Spring")
     private String nom;
 
-    @Min(value = 1)
+    // @Min(value = 1)
     private int prix;
 
-    //information que nous ne souhaitons pas exposer
+    // information que nous ne souhaitons pas exposer
     private int prixAchat;
 
-    //constructeur par défaut
+    // constructeur par défaut
     public Product() {
     }
 
-    //constructeur pour nos tests
+    // constructeur pour nos tests
     public Product(int id, String nom, int prix, int prixAchat) {
         this.id = id;
         this.nom = nom;
@@ -71,10 +71,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", nom='" + nom + '\'' +
-                ", prix=" + prix +
-                '}';
+        return "Product{" + "id=" + id + ", nom='" + nom + '\'' + ", prix=" + prix + '}';
     }
 }
