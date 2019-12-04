@@ -114,4 +114,11 @@ public class ProductController {
 
     }
 
+    // Partie 2
+    @GetMapping(value = "/Produits/tries")
+    public List<Product> listeProduitsTries() {
+
+        return productDao.findAllByOrderByNomAsc();
+    }
+
 }
