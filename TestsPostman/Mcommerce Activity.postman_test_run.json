@@ -1,0 +1,197 @@
+{
+	"id": "f470ccc0-e601-470d-acb9-37a905274d0c",
+	"name": "Mcommerce Activity",
+	"allTests": [],
+	"timestamp": "2019-12-04T17:16:55.252Z",
+	"collection_id": "c0f283fb-defb-42f9-9f25-4b2e0028112d",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "c0f283fb-defb-42f9-9f25-4b2e0028112d",
+		"name": "Mcommerce Activity",
+		"order": [
+			"b8a08848-9d84-4144-a597-4904aa6523d1",
+			"d1d7bb34-002f-4696-bf6f-fb437b828121",
+			"44041618-3268-42d9-b6bf-8d786b5fd3fc",
+			"8517bb9d-e233-4591-bcf3-48c55f009aee"
+		],
+		"folders_order": [],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "localhost:9090/Produits",
+			"id": "b8a08848-9d84-4144-a597-4904aa6523d1",
+			"url": "localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"74"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "74",
+			"totalRequestTime": "74",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "d1d7bb34-002f-4696-bf6f-fb437b828121",
+			"url": "localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/Produits/tries",
+			"id": "44041618-3268-42d9-b6bf-8d786b5fd3fc",
+			"url": "localhost:9090/Produits/tries",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"20"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "20",
+			"totalRequestTime": "20",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"id": "8517bb9d-e233-4591-bcf3-48c55f009aee",
+			"url": "localhost:9090/Produits/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 114,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "localhost:9090/Produits",
+			"id": "b8a08848-9d84-4144-a597-4904aa6523d1",
+			"url": "localhost:9090/Produits",
+			"time": "2019-12-04T17:16:55.252Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "d1d7bb34-002f-4696-bf6f-fb437b828121",
+			"url": "localhost:9090/AdminProduits",
+			"time": "2019-12-04T17:16:55.252Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/Produits/tries",
+			"id": "44041618-3268-42d9-b6bf-8d786b5fd3fc",
+			"url": "localhost:9090/Produits/tries",
+			"time": "2019-12-04T17:16:55.252Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"id": "8517bb9d-e233-4591-bcf3-48c55f009aee",
+			"url": "localhost:9090/Produits/",
+			"time": "2019-12-04T17:16:55.252Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
